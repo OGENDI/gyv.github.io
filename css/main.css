@@ -1,0 +1,33 @@
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+
+/* navbar */
+.navbar-inverse {
+    background-color: #551a8b;
+    background-image: -webkit-linear-gradient(top, #551a8b 0,#2a0d45 100%); 
+    background-image: -o-linear-gradient(top, #551a8b 0,#2a0d45 100%);
+    background-image: -webkit-gradient(linear,left top,left bottom,from( #551a8b),to(#2a0d45)); 
+    background-image: linear-gradient(to bottom, #551a8b 0,#2a0d45 100%);
+    border-color: #E7E7E7;
+}
+
+/* title 
+.navbar-inverse .navbar-brand {
+    color: #777;
+}
+
+.navbar-inverse .navbar-brand:hover,
+.navbar-inverse .navbar-brand:focus {
+    color: #5E5E5E;
+}
+*/
+
+.carousel-inner > .item > img,.carousel-inner > .item > a > img {
+  width: 100%;
+}
+.jumbotron {
+    padding: 0;
+    margin-bottom: 0;
+}
